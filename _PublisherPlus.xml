@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+  <Title>No Overeating</Title>
+  <Excluded>
+    <exclude>.git</exclude>
+    <exclude>Source</exclude>
+    <exclude>Assemblies\0Harmony.dll</exclude>
+  </Excluded>
+</Configuration>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>No Overeating</name>
+  <author>
+    <li>Riketta</li>
+  </author>
+  <packageId>Riketta.NoOvereating</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Pawns and animals no longer eat a piece of food when that last piece would overflow their stomach and the extra nutrition would be wasted.
+
+An adult ibex at 0.06/0.32 food with rice (0.05 nutrition per grain) available eats 5 grains, not 6 - vanilla takes the 6th and throws away the part that does not fit. When every available food overflows anyway (say, a simple meal at 0.9 nutrition), the pawn still eats one unit: overeating is acceptable when it is unavoidable.
+
+All amounts are read from the actual food, the eater and its current food need at runtime - no hardcoded foods, races or nutrition values. Works with DLC and modded food, for humans and animals alike, on maps and in caravans.
+
+Safe to add and remove at any time - nothing is saved to the game state.</description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopURL>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopURL>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+</ModMetaData>

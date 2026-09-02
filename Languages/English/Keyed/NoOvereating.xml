@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <NoOvereating.SettingsCategory>No Overeating</NoOvereating.SettingsCategory>
+
+  <NoOvereating.Enabled>Enable no overeating</NoOvereating.Enabled>
+  <NoOvereating.EnabledTip>Pawns eat only as many whole pieces of food as fit in their stomach. When off, eating works exactly like vanilla: the last partial piece is eaten and its overflow wasted.</NoOvereating.EnabledTip>
+
+  <NoOvereating.DebugLogging>Debug logging</NoOvereating.DebugLogging>
+  <NoOvereating.DebugLoggingTip>Log every adjusted pickup and meal to the game log with full numbers: pawn, food need, nutrition per piece, pieces taken vs vanilla. For verifying behavior and bug reports.</NoOvereating.DebugLoggingTip>
+</LanguageData>
