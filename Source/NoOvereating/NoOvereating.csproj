@@ -13,7 +13,6 @@
     <!-- Override with your own paths if your install lives elsewhere. -->
     <RimWorldDir Condition="'$(RimWorldDir)' == ''">E:\SteamLibrary\steamapps\common\RimWorld</RimWorldDir>
     <GameManaged>$(RimWorldDir)\RimWorldWin64_Data\Managed</GameManaged>
-    <HarmonyDir Condition="'$(HarmonyDir)' == ''">E:\SteamLibrary\steamapps\workshop\content\294100\2009463077\Current\Assemblies</HarmonyDir>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,10 +20,9 @@
       <HintPath>$(GameManaged)\Assembly-CSharp.dll</HintPath>
       <Private>false</Private>
     </Reference>
-    <Reference Include="0Harmony">
-      <HintPath>$(HarmonyDir)\0Harmony.dll</HintPath>
-      <Private>false</Private>
-    </Reference>
+    <!-- Players load the Workshop Harmony mod (declared in About.xml); Lib.Harmony is
+         compile-time only - ExcludeAssets=runtime keeps the dll out of Assemblies. -->
+    <PackageReference Include="Lib.Harmony" Version="2.3.3" ExcludeAssets="runtime" />
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>$(GameManaged)\UnityEngine.CoreModule.dll</HintPath>
       <Private>false</Private>
