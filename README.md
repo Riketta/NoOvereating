@@ -79,11 +79,12 @@ remove at any time.
 
 ## Build from source
 
-Requires the .NET SDK.
+Requires the .NET SDK. Build the Release configuration for the dll you ship - a plain
+`dotnet build` defaults to Debug:
 
 ```
 cd Source/NoOvereating
-dotnet build -p:RimWorldDir="C:\Path\To\RimWorld"
+dotnet build -c Release -p:RimWorldDir="C:\Path\To\RimWorld"
 ```
 
 Add `-p:HarmonyDir="C:\Path\To\Harmony"` if Harmony is not installed at the default
