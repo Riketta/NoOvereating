@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>No Overeating</name>
-  <author>
-    <li>Riketta</li>
-  </author>
+  <author>Riketta</author>
   <packageId>Riketta.NoOvereating</packageId>
   <supportedVersions>
     <li>1.6</li>
@@ -14,7 +12,9 @@ An adult ibex at 0.06/0.32 food with rice (0.05 nutrition per grain) available e
 
 All amounts are read from the actual food, the eater and its current food need at runtime - no hardcoded foods, races or nutrition values. Works with DLC and modded food, for humans and animals alike, on maps and in caravans.
 
-Safe to add and remove at any time - nothing is saved to the game state.</description>
+Safe to add and remove at any time - nothing is saved to the game state.
+
+Source code &amp; details: https://github.com/Riketta/NoOvereating</description>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>

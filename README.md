@@ -92,4 +92,4 @@ Steam Workshop location
 (`...\steamapps\workshop\content\294100\2009463077\Current\Assemblies`).
 
 The output lands in `Assemblies/NoOvereating.dll`; the whole `NoOvereating` folder can
-be junctioned or copied into the game's `Mods` directory.
+be copied or symlinked into the game's `Mods` directory.
