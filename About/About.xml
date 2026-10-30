@@ -6,6 +6,7 @@
   <modVersion IgnoreIfNoMatchingField="True">1.0.0</modVersion>
   <supportedVersions>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   <description>Pawns and animals no longer eat a piece of food when that last piece would overflow their stomach and the extra nutrition would be wasted.
 
